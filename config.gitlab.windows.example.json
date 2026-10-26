@@ -1,0 +1,21 @@
+{
+  "provider": "gitlab",
+  "api_base_url": "https://gitlab.company.invalid/api/v4",
+  "repo": "group/subgroup/project",
+  "branches": ["main"],
+  "include_paths": ["monitor-test/watched.txt", "monitor-test/watched/"],
+  "gitlab_diff_max_files": null,
+  "interval_seconds": 300,
+  "notify": "terminal",
+  "data_dir": "data-gitlab",
+  "auth": {
+    "token_env": "LML_GITLAB_TOKEN",
+    "token_file": "secrets/gitlab-token.txt",
+    "use_gh": false
+  },
+  "network": {
+    "timeout_seconds": 45,
+    "ca_file": null,
+    "proxy": ""
+  }
+}

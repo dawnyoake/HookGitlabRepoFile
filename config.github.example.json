@@ -1,0 +1,18 @@
+{
+  "provider": "github",
+  "api_base_url": "https://api.github.com",
+  "repo": "owner/project",
+  "branches": [],
+  "include_paths": [],
+  "interval_seconds": 300,
+  "notify": "terminal",
+  "data_dir": "data",
+  "auth": {
+    "use_gh": true
+  },
+  "network": {
+    "timeout_seconds": 45,
+    "ca_file": null,
+    "proxy": null
+  }
+}

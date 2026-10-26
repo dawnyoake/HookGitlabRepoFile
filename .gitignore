@@ -1,0 +1,32 @@
+# Local configuration and credentials
+config.json
+config.local.json
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime state and generated artifacts
+data/
+data-*/
+logs/
+backups/
+reports/
+notifications/
+raw/
+outputs/
+test-fixtures/
+*.sqlite
+*.sqlite-*
+
+# Python/editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
